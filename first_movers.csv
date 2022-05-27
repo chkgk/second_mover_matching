@@ -1,0 +1,9 @@
+id,match_with_type,some_value
+1,A,2
+2,B,3
+3,B,5
+4,A,4
+5,B,7
+6,B,9
+7,A,6
+8,A,8

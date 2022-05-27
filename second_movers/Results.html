@@ -1,0 +1,20 @@
+{{ block title }}
+    Second page
+{{ endblock }}
+
+{{ block content }}
+    <p>
+        This player should be matched with a first mover of type <b>{{ player.match_with_type }}</b>.
+    </p>
+    <p>
+        Now the fields have been populated:<br>
+        Matched with first mover id: {{ player.matched_with_id }}<br>
+        Value from first mover: {{ player.first_mover_value }}
+    </p>
+    <p>
+        Check: In the example, all first movers of type A have even numbers, all first movers of type B have odd numbers.
+    </p>
+    {{ next_button }}
+{{ endblock }}
+
+
